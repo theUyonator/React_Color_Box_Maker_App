@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> rendering matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="BoxList"
+    >
+      <form
+        class="NewBoxForm"
+      >
+        <label
+          class="NewBoxForm-label"
+          for="width"
+        >
+          Width:
+        </label>
+        <input
+          class="NewBoxForm-input"
+          id="width"
+          name="width"
+          type="number"
+          value="0"
+        />
+        <label
+          class="NewBoxForm-label"
+          for="height"
+        >
+          Height:
+        </label>
+        <input
+          class="NewBoxForm-input"
+          id="height"
+          name="height"
+          type="number"
+          value="0"
+        />
+        <label
+          class="NewBoxForm-label"
+          for="backgroundColor"
+        >
+          Background Color:
+        </label>
+        <input
+          class="NewBoxForm-input"
+          id="backgroundColor"
+          name="backgroundColor"
+          type="text"
+          value=""
+        />
+        <button
+          class="NewBoxForm-btn"
+          id="newBoxBtn"
+        >
+          Add a new box!
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
